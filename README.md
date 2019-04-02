@@ -1,1 +1,1 @@
-# jung2soft.kro.kr
+# Jung2 Soft
