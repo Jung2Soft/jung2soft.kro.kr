@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>API</title>
+<base href="https://web.jung2soft.kro.kr">
+<meta name="robots" content="noindex">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="/css/api.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700italic">
+</head>
+<body>
+ <div id="wrapper">
+  <div id="converter"> 
+   <div id="title">
+    Youtube 링크를 넣어주세요!
+   </div> 
+   <form method="post">
+    <input id="input" type="text" name="video" autocomplete="off">
+    <input id="format" type="hidden" name="format" value="mp3">
+    <input id="button" type="submit" value="Convert">
+   </form>
+   <div id="progress">
+    <span>Checking video syntax</span> <span></span>
+   </div>
+   <div id="buttons">
+    <a id="download" href="" rel="nofollow">Download</a>
+   </div>
+  </div>
+  <div id="formats">
+   <a id="mp3" href="">mp3</a>
+   <a id="mp4" href="">mp4</a>     
+  </div>
+ </div>
+  <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+ <script type="text/javascript" src="/js/api.js"></script>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107189433-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107189433-1');
+</script>
+ 
+</body>
+</html>
