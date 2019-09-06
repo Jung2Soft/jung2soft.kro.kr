@@ -1,4 +1,5 @@
 <html>
+<script>
 const recordAudio = () => {
   return new Promise(resolve => {
     navigator.mediaDevices.getUserMedia({ audio: true })
@@ -35,4 +36,5 @@ const recordAudio = () => {
       });
   });
 };
+</script>
 </html>
